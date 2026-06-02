@@ -1,0 +1,125 @@
+/* Full Page */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+}
+
+/* Main Container */
+.container{
+    width: 350px;
+    background-color: white;
+    padding: 30px;
+    margin: 80px auto;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+}
+
+/* Heading */
+.container h2{
+    color: #333;
+    margin-bottom: 25px;
+}
+
+/* Paragraph */
+.container p{
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #444;
+}
+
+/* Input Box */
+.container input{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Input Focus */
+.container input:focus{
+    border-color: #4facfe;
+    box-shadow: 0px 0px 5px #4facfe;
+}
+
+/* Button */
+.container button{
+    width: 100%;
+    padding: 12px;
+    background-color: #4facfe;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Button Hover */
+.container button:hover{
+    background-color: #2196f3;
+}
+
+/* Result Page */
+.result-box{
+    width: 400px;
+    background-color: white;
+    padding: 30px;
+    margin: 50px auto;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+}
+
+/* Result Heading */
+.result-box h1{
+    color: #333;
+    font-size: 50px;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+
+/* BMI Text */
+.result-box h2{
+    color: #555;
+    margin-top: 15px;
+}
+
+/* Image */
+.result-box img{
+    width: 250px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+/* Back Button */
+.result-box button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4facfe;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.result-box button:hover{
+    background-color: #2196f3;
+}
+.result-box button{
+    transition: 0.3s;
+}
+
+.result-box button:hover{
+    transform: scale(1.05);
+}
